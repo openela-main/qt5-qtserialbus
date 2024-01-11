@@ -4,7 +4,7 @@
 
 Summary: Qt5 - SerialBus component
 Name:    qt5-%{qt_module}
-Version: 5.15.3
+Version: 5.15.9
 Release: 1%{?dist}
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
@@ -101,6 +101,10 @@ make install INSTALL_ROOT=%{buildroot}
 %endif
 
 %changelog
+* Tue Apr 18 2023 Jan Grulich <jgrulich@redhat.com> - 5.15.9-1
+- 5.15.9
+  Resolves: bz#2175740
+
 * Mon Mar 28 2022 Jan Grulich <jgrulich@redhat.com> - 5.15.3-1
 - 5.15.3
   Resolves: bz#2061367
